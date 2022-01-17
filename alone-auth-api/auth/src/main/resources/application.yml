@@ -1,0 +1,12 @@
+policy:
+  login:
+    maxTry: 5
+    ip:
+      - 127.0.0.1
+      - localhost
+  password:
+    upper: true
+    lower: true
+    numeric: true
+    special: true
+    length: 8
